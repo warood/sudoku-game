@@ -1,0 +1,141 @@
+*{
+    width: 100%;
+
+}
+body{
+    width: 98%;
+}
+.title{
+    background-image: url(./image/sudoku.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 175px;
+    color:black;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    height: 18vh;
+    padding-top: 30px;
+}
+.page{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+ 
+   
+}
+.table{
+    width: 200vw;
+    height: 50vh;
+    margin-bottom: 60px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:repeat(9 ,40px) ;
+    grid-template-rows: repeat(9, 40px);
+ 
+}
+p.gry{
+    background-color:white ; 
+    color: black;
+    border: 1px black solid ;
+}
+.cells{
+    background-color: black;
+    border: 1px blanchedalmond solid ;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    color: blanchedalmond;
+    font-family: Bradley Hand, cursive;
+    pointer-events: none;
+}
+
+.buttons{
+    display: grid;
+    margin:20px;
+    padding-top: 30px;
+    grid-template-columns:repeat(3 , 50px) ;
+    grid-template-rows: repeat(3, 50px);
+}
+.twoButton{
+    display: grid;
+   grid-template-columns: repeat(2 , 50px);
+   justify-content:left;
+   
+   
+}
+.number{
+    background-color: white;
+    color: black;
+    font-family: Bradley Hand, cursive;
+    border: 1.5px black solid ;
+    border-radius: 15px;
+}
+.counterDiv{
+    color: rgb(12, 12, 12);
+    padding-right: 50px;
+    padding-left: 10px;
+    font-family: Bradley Hand, cursive;
+margin-top: 0px;
+}
+h3{
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+.statrButton{
+    font-family: Bradley Hand, cursive;
+    border-radius: 15px;
+    width: 13vw;
+    height: 10vh;
+    align-items: center;
+    font-size:100%;
+    font: bold;
+    position: relative;;
+    top: -18px ;
+    left: 75px;
+}
+.resetButton{
+    font-family: Bradley Hand, cursive;
+    border-radius: 15px;
+    width: 13vw;
+    height: 10vh;
+    align-items: center;
+    font-size:100%;
+    font: bold;
+    position: relative;;
+    top: -18px ;
+    left: 75px;
+}
+
+.instruction{
+    text-align:left ;
+    background-color: rgb(196, 193, 194) ;
+    padding-left: 80px;
+}
+.change-color-grey{
+    background-color: rgb(196, 193, 194);
+}
+.big-message{
+    color: rgb(236, 78, 78);
+    font-family: Bradley Hand, cursive;
+}
+.radioButtons{
+    display: inline-block;
+    font-family: Bradley Hand, cursive;
+    pointer-events: auto;
+    display: flex;
+    font-size: 120%;
+    width: 25vw;
+}
+label{
+    display: inline-block;
+}
+h4{
+    position: relative;
+    top:-35px;
+    font-size: 120%;
+}
